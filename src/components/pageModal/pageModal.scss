@@ -1,0 +1,45 @@
+.lv-pageItem-container + .lv-pageItem-container {
+    border-top: 1px solid #eee;
+}
+.lv-pageItem-container {
+    padding: 24px 0;
+    .lv-pageItem-title {
+        color: #333;
+        letter-spacing: 2px;
+        line-height: 1.2;
+        display: inline-block;
+        cursor: pointer;
+    }
+    .lv-pageItem-content {
+        margin: 10px 0;
+        letter-spacing: 1px;
+        font-size: .875rem;
+        color: #666;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    .lv-pageItem-mask {
+        display: flex;
+        margin-bottom: 10px;
+        div {
+            width: 200px;
+            height: 130px;
+            border-radius: 3px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: 50% 50%;
+        }
+        div + div {
+            margin-left: 10px;
+        }
+    }
+    .lv-pageItem-detail {
+        color: #888;
+        span {
+            vertical-align: middle;
+        }
+        span + span {
+            margin-left: 10px;
+        }
+    }
+}

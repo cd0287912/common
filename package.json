@@ -1,0 +1,45 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi generate tmp",
+    "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,scss,md,json}'",
+    "test": "umi-test",
+    "test:coverage": "umi-test --coverage"
+  },
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "dependencies": {
+    "@ant-design/pro-layout": "^6.5.0",
+    "@umijs/plugin-sass": "^1.1.1",
+    "@umijs/preset-react": "1.x",
+    "@umijs/test": "^3.3.2",
+    "axios": "^0.21.1",
+    "braft-editor": "^2.3.9",
+    "braft-extensions": "^0.1.1",
+    "classnames": "^2.2.6",
+    "clipboard": "^2.0.6",
+    "draft-js-prism": "^1.0.6",
+    "md5": "^2.3.0",
+    "prismjs": "^1.23.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "store": "^2.0.12",
+    "umi": "^3.3.2",
+    "yorkie": "^2.0.0"
+  },
+  "devDependencies": {
+    "lint-staged": "^10.0.7",
+    "prettier": "^1.19.1"
+  }
+}

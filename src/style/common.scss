@@ -1,0 +1,116 @@
+body {
+    font-family: "PingFang SC", "Lantinghei SC", "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", 微软雅黑, STHeitiSC-Light, simsun, 宋体, "WenQuanYi Zen Hei", "WenQuanYi Micro Hei", sans-serif;
+    color: rgb(102, 102, 102);
+    background: #f1f2f9;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+    text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0.5px;
+}
+
+.lv-scrollBar,
+body {
+  &::-webkit-scrollbar-track-piece {
+    background: #fff;
+  }
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: rgba(144, 147, 153, 0.3);
+    border-radius: 20px;
+  }
+}
+
+.lv-card-default {
+    background: #fff;border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.02);overflow: hidden;
+}
+.lv-border-circle {border-radius: 50%}
+/* 分割线 */
+.lv-divide-line {
+    position: relative;
+    text-align: center;
+    span{
+        position: relative;
+        background-color: #fff;
+        display: inline-block;
+        padding: 0 20px;
+        z-index: 2;
+        font-weight: bold;
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        background-color: #eee;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+}
+/* 三角形 */
+i.iconfont {font-size: 30px;color: #aaa;transition: color 0.3s;cursor: pointer;}
+i.iconfont:hover {color: #666}
+
+/* ==================common===================== */
+.lv-modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    background: #000;
+    z-index: 2000;
+}
+.lv-block-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+}
+.hide {display: none;}
+.lv-over-hide {
+  overflow: hidden
+}
+
+.lv-ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.lv-text-center {
+  text-align: center;
+}
+
+.lv-cursor {
+  cursor: pointer;
+}
+
+
+.lv-mt-10 {margin-top: 0.625rem;}
+.lv-mb-10 {margin-bottom: 0.625rem;}
+.lv-ml-10 {margin-left: 0.625rem;}
+.lv-mr-10 {margin-right: 0.625rem;}
+
+.lv-pt-10 {padding-top: 0.625rem;}
+.lv-pb-10 {padding-bottom: 0.625rem;}
+.lv-pl-10 {padding-left: 0.625rem;}
+.lv-pr-10 {padding-right: 0.625rem;}
+
+.lv-fs-12 {font-size: 0.75rem;}
+.lv-fs-14 {font-size: 0.875rem;}
+.lv-fs-16 {font-size: 1rem;}
+.lv-fs-18 {font-size: 1.125rem;}
+.lv-fs-20 {font-size: 1.25rem;}
+.lv-fs-22 {font-size: 1.375rem;}
+.lv-fs-24 {font-size: 1.5rem;}
+.lv-fs-26 {font-size: 1.625rem;}
+.lv-fs-28 {font-size: 1.75rem;}
+.lv-fs-30 {font-size: 1.875rem;}

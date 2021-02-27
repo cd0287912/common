@@ -1,0 +1,19 @@
+.lv-demo-container {
+    padding-bottom: 40px;
+}
+
+.lv-demo-container-head {
+    padding: 20px;
+    background: #fff;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.lv-demo-container-content {
+    padding: 20px;
+    background: #fff;
+    border-radius: 3px;  
+    .lv-demo-container-content-page {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,16 @@
+.lv-admin-personal-container {
+    background: #fff;
+    padding: 20px 20px 20px 0;
+    border-radius: 3px;
+}
+
+
+.lv-admin-personal-basic-avatar {
+    margin-bottom: 30px;
+    .lv-admin-personal-basic-avatar-btn {
+        input {display: none;}
+        width: 128px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}

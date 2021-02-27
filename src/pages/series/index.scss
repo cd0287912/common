@@ -1,0 +1,46 @@
+.lv-series-container {
+    padding: 50px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.lv-series-main {
+    border-radius: 5px;
+    background: #fff;
+    padding: 20px 30px;
+    .lv-series-title {
+        color: #333;
+    }
+    .lv-series-subtitle  {
+        line-height: 2;
+        margin: 10px 0;
+    }
+    .lv-series-mask {
+        img {
+            border-radius: 4px;
+            max-height: 200px;
+            max-width: 100%;
+        }
+    }
+    .lv-series-content {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .lv-series-pagination {
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .lv-series-container {
+        padding: 10px 0;
+        // padding-right: 0!important;
+        // padding-left: 0!important;
+    }
+    .lv-series-main {
+        padding:10px 20px;   
+    }
+   
+ }

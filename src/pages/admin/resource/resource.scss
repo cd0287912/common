@@ -1,0 +1,19 @@
+.lv-admin-resource-container {
+    padding-bottom: 40px;
+}
+
+.lv-admin-resource-container-head {
+    padding: 20px;
+    background: #fff;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.lv-admin-resource-container-content {
+    padding: 20px;
+    background: #fff;
+    border-radius: 3px;  
+    .lv-admin-resource-container-content-page {
+        margin-top: 20px;
+    }
+}

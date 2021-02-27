@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { history } from 'umi';
 import md5 from 'md5';
 import classnames from 'classnames';
-import CheckBox from '@/components/checkBox/checkBox';
+import CheckBox from '@/components/checkBox/CheckBox';
 import { loginApi, registApi } from '@/api';
 import { setToken, getToken } from '@/ultis';
 import './login.scss';
